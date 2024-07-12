@@ -1,0 +1,17 @@
+/* descent combinators */
+section ul li a{
+    color: red;
+    size: 20px;
+}
+/* adjacent combinators */
+section h3 +p{
+    color: rgb(56, 201, 34);
+}
+/* child combinators */
+section>h3{
+    border-top: 2px solid green;
+}
+/*general sibling   */
+ul~li{
+    color: blue;
+}
